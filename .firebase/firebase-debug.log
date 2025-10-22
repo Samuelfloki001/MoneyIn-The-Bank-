@@ -1,0 +1,104 @@
+[debug] [2025-10-20T16:54:51.726Z] ----------------------------------------------------------------------
+[debug] [2025-10-20T16:54:51.731Z] Command:       C:\Users\Admin\3D Objects\node-v20.19.5-win-x64\node.exe C:\Users\Admin\3D Objects\node-v20.19.5-win-x64\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting --project money-in-the-bank-f0c53 --debug
+[debug] [2025-10-20T16:54:51.731Z] CLI Version:   14.20.0
+[debug] [2025-10-20T16:54:51.732Z] Platform:      win32
+[debug] [2025-10-20T16:54:51.732Z] Node Version:  v20.19.5
+[debug] [2025-10-20T16:54:51.732Z] Time:          Mon Oct 20 2025 09:54:51 GMT-0700 (Pacific Daylight Time)
+[debug] [2025-10-20T16:54:51.732Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-10-20T16:54:52.102Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-20T16:54:52.104Z] > authorizing via signed-in user (tinasamuel0001@gmail.com)
+[debug] [2025-10-20T16:54:52.104Z] [iam] checking project money-in-the-bank-f0c53 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-10-20T16:54:52.107Z] Checked if tokens are valid: true, expires at: 1760982881376
+[debug] [2025-10-20T16:54:52.108Z] Checked if tokens are valid: true, expires at: 1760982881376
+[debug] [2025-10-20T16:54:52.111Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/money-in-the-bank-f0c53:testIamPermissions [none]
+[debug] [2025-10-20T16:54:52.112Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/money-in-the-bank-f0c53:testIamPermissions x-goog-quota-user=projects/money-in-the-bank-f0c53
+[debug] [2025-10-20T16:54:52.113Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/money-in-the-bank-f0c53:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-10-20T16:54:53.792Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/money-in-the-bank-f0c53:testIamPermissions 200
+[debug] [2025-10-20T16:54:53.792Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/money-in-the-bank-f0c53:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-10-20T16:54:53.794Z] Checked if tokens are valid: true, expires at: 1760982881376
+[debug] [2025-10-20T16:54:53.794Z] Checked if tokens are valid: true, expires at: 1760982881376
+[debug] [2025-10-20T16:54:53.795Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/money-in-the-bank-f0c53 [none]
+[debug] [2025-10-20T16:54:56.674Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/money-in-the-bank-f0c53 200
+[debug] [2025-10-20T16:54:56.675Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/money-in-the-bank-f0c53 {"projectId":"money-in-the-bank-f0c53","projectNumber":"429059379127","displayName":"money-in-the-bank","name":"projects/money-in-the-bank-f0c53","resources":{"hostingSite":"money-in-the-bank-f0c53"},"state":"ACTIVE","etag":"1_e35ab6cb-bf8b-4632-9ec7-8063765b010b"}
+[info] 
+[info] === Deploying to 'money-in-the-bank-f0c53'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2025-10-20T16:54:56.688Z] Checked if tokens are valid: true, expires at: 1760982881376
+[debug] [2025-10-20T16:54:56.688Z] Checked if tokens are valid: true, expires at: 1760982881376
+[debug] [2025-10-20T16:54:56.688Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/money-in-the-bank-f0c53/versions [none]
+[debug] [2025-10-20T16:54:56.688Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/money-in-the-bank-f0c53/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2025-10-20T16:54:58.940Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/money-in-the-bank-f0c53/versions 200
+[debug] [2025-10-20T16:54:58.940Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/money-in-the-bank-f0c53/versions {"name":"projects/429059379127/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[money-in-the-bank-f0c53]: beginning deploy... 
+[info] i  hosting[money-in-the-bank-f0c53]: found 6 files in public 
+[debug] [2025-10-20T16:54:58.966Z] [hosting] uploading with 200 concurrency
+[debug] [2025-10-20T16:54:58.997Z] Checked if tokens are valid: true, expires at: 1760982881376
+[debug] [2025-10-20T16:54:58.997Z] Checked if tokens are valid: true, expires at: 1760982881376
+[debug] [2025-10-20T16:54:59.000Z] [hosting] hash cache [cHVibGlj] stored for 6 files
+[debug] [2025-10-20T16:54:59.001Z] [hosting][hash queue][FINAL] {"max":10,"min":2,"avg":5.5,"active":0,"complete":6,"success":6,"errored":0,"retried":0,"total":6,"elapsed":16}
+[debug] [2025-10-20T16:54:59.001Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/429059379127/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088:populateFiles [none]
+[debug] [2025-10-20T16:54:59.002Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/429059379127/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088:populateFiles {"files":{"/index.html":"b1ef36904c8346c0a8d3e06fa7d91641134298886674f6c83e3f6110d09470b5","/dashboard.html":"9f26833c0153c42e0a45cf3066bf720f3ef30b183e1360e4d811d2bc0bd618c6","/admin.html":"fc3b3a9b596c95955ccb46c4b2a04bfc3f612ef178cb17261c5b58ef8f0d1e52","/js/firebase.js":"de605e6c238291f4911557f4c13647273206bc72b5439db2428a47d836961c66","/css/style.css":"196895e384044c1cebb45989639d9ae97f10bf9e5f7082040eded468b3db08b6","/js/app.js":"21de6922f962c7817bbb154a5f5bac95cffc8ac0951c261e2922b3f803aeb9f8"}}
+[debug] [2025-10-20T16:54:59.369Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/429059379127/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088:populateFiles 200
+[debug] [2025-10-20T16:54:59.370Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/429059379127/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088:populateFiles {"uploadRequiredHashes":["196895e384044c1cebb45989639d9ae97f10bf9e5f7082040eded468b3db08b6","21de6922f962c7817bbb154a5f5bac95cffc8ac0951c261e2922b3f803aeb9f8","de605e6c238291f4911557f4c13647273206bc72b5439db2428a47d836961c66"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088/files"}
+[debug] [2025-10-20T16:54:59.374Z] Checked if tokens are valid: true, expires at: 1760982881376
+[debug] [2025-10-20T16:54:59.374Z] Checked if tokens are valid: true, expires at: 1760982881376
+[debug] [2025-10-20T16:54:59.375Z] Checked if tokens are valid: true, expires at: 1760982881376
+[debug] [2025-10-20T16:54:59.375Z] Checked if tokens are valid: true, expires at: 1760982881376
+[debug] [2025-10-20T16:54:59.376Z] Checked if tokens are valid: true, expires at: 1760982881376
+[debug] [2025-10-20T16:54:59.376Z] Checked if tokens are valid: true, expires at: 1760982881376
+[debug] [2025-10-20T16:54:59.376Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088/files/196895e384044c1cebb45989639d9ae97f10bf9e5f7082040eded468b3db08b6 [none]
+[debug] [2025-10-20T16:54:59.377Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088/files/196895e384044c1cebb45989639d9ae97f10bf9e5f7082040eded468b3db08b6 [stream]
+[debug] [2025-10-20T16:54:59.380Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088/files/21de6922f962c7817bbb154a5f5bac95cffc8ac0951c261e2922b3f803aeb9f8 [none]
+[debug] [2025-10-20T16:54:59.380Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088/files/21de6922f962c7817bbb154a5f5bac95cffc8ac0951c261e2922b3f803aeb9f8 [stream]
+[debug] [2025-10-20T16:54:59.383Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088/files/de605e6c238291f4911557f4c13647273206bc72b5439db2428a47d836961c66 [none]
+[debug] [2025-10-20T16:54:59.383Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088/files/de605e6c238291f4911557f4c13647273206bc72b5439db2428a47d836961c66 [stream]
+[debug] [2025-10-20T16:54:59.386Z] [hosting][populate queue][FINAL] {"max":380,"min":380,"avg":380,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":390}
+[debug] [2025-10-20T16:54:59.387Z] [hosting] uploads queued: 3
+[info] i  hosting: uploading new files [0/3] (0%) 
+[debug] [2025-10-20T16:55:01.754Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088/files/de605e6c238291f4911557f4c13647273206bc72b5439db2428a47d836961c66 200
+[debug] [2025-10-20T16:55:01.755Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088/files/de605e6c238291f4911557f4c13647273206bc72b5439db2428a47d836961c66 [stream]
+[debug] [2025-10-20T16:55:02.159Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088/files/196895e384044c1cebb45989639d9ae97f10bf9e5f7082040eded468b3db08b6 200
+[debug] [2025-10-20T16:55:02.159Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088/files/196895e384044c1cebb45989639d9ae97f10bf9e5f7082040eded468b3db08b6 [stream]
+[debug] [2025-10-20T16:55:02.320Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088/files/21de6922f962c7817bbb154a5f5bac95cffc8ac0951c261e2922b3f803aeb9f8 200
+[debug] [2025-10-20T16:55:02.320Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088/files/21de6922f962c7817bbb154a5f5bac95cffc8ac0951c261e2922b3f803aeb9f8 [stream]
+[debug] [2025-10-20T16:55:02.321Z] [hosting][upload queue][FINAL] {"max":2946,"min":2380,"avg":2704.3333333333335,"active":0,"complete":3,"success":3,"errored":0,"retried":0,"total":3,"elapsed":2949}
+[info] i  hosting: upload complete 
+[info] +  hosting[money-in-the-bank-f0c53]: file upload complete 
+[debug] [2025-10-20T16:55:02.322Z] [hosting] deploy completed after 3378ms
+[debug] [2025-10-20T16:55:02.322Z] [
+  {
+    "config": {
+      "cleanUrls": true,
+      "ignore": [
+        "firebase.json",
+        "/.",
+        "/node_modules/"
+      ],
+      "public": "public",
+      "site": "money-in-the-bank-f0c53",
+      "rewrites": [
+        {
+          "destination": "/index.html",
+          "source": ""
+        }
+      ],
+      "headers": [
+        {
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate"
+            }
+          ],
+          "source": ""
+        }
+      ]
+    },
+    "version": "projects/429059379127/sites/money-in-the-bank-f0c53/versions/6dae7555276ef088"
+  }
+]
+[info] i  hosting[money-in-the-bank-f0c53]: finalizing version... 
+[error] 
+[error] Error: Cannot specify a rewrite with no pattern (either a glob or regex required).

@@ -1,0 +1,1 @@
+﻿document.getElementById('saveProfile')?.addEventListener('click', ()=>{ const name = document.getElementById('fullName').value; const user = JSON.parse(localStorage.getItem('mib_user')||'{}'); user.name = name; localStorage.setItem('mib_user', JSON.stringify(user)); alert('Saved (demo)'); location.href='home.html' })

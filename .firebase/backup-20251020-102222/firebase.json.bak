@@ -1,0 +1,29 @@
+﻿{
+    "hosting":  {
+                    "cleanUrls":  true,
+                    "ignore":  [
+                                   "firebase.json",
+                                   "/.",
+                                   "/node_modules/"
+                               ],
+                    "public":  "public",
+                    "site":  "money-in-the-bank-f0c53",
+                    "rewrites":  [
+                                     {
+                                         "destination":  "/index.html",
+                                         "source":  ""
+                                     }
+                                 ],
+                    "headers":  [
+                                    {
+                                        "headers":  [
+                                                        {
+                                                            "key":  "Cache-Control",
+                                                            "value":  "no-cache, no-store, must-revalidate"
+                                                        }
+                                                    ],
+                                        "source":  ""
+                                    }
+                                ]
+                }
+}

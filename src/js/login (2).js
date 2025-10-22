@@ -9,10 +9,17 @@ document.getElementById('googleBtn').addEventListener('click', async () => {
         const userRef = ref(db, 'users/' + user.uid);
         const snapshot = await get(userRef);
         if (!snapshot.exists()) {
-            await set(userRef, { id:user.uid, name:user.displayName, email:user.email, profilePic:user.photoURL||'', balance:5.0, status:'Pending' });
+            await set(userRef, {
+                id: user.uid,
+                name: user.displayName,
+                email: user.email,
+                profilePic: user.photoURL || '',
+                balance: 5.0,
+                status: 'Pending'
+            });
         }
         document.getElementById('status').textContent = '✅ Login successful!';
-        setTimeout(()=>window.location.href='home.html',1000);
+        setTimeout(()=>window.location.href='home.html', 1000);
     } catch(err) {
         console.error(err);
         document.getElementById('status').textContent = '❌ Login failed: ' + err.message;

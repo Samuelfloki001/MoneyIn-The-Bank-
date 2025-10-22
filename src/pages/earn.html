@@ -1,0 +1,26 @@
+﻿<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Earn - Money-In-The-Bank</title>
+<link rel='stylesheet' href='../css/earn.css'>
+<!-- AdMob plugin script will be included via Capacitor Android -->
+</head>
+<body>
+  <div class='app-earn container'>
+    <h2>Earn - Watch rewarded ads & play music</h2>
+    <div class='controls'>
+      <input id='musicFiles' type='file' accept='audio/*' multiple />
+      <audio id='musicPlayer' controls></audio>
+    </div>
+    <div class='ad-area'>
+      <!-- AD placeholder for web -->
+      <div class='ad-placeholder'>Rewarded Ad (Android only)</div>
+      <button id='watchReward'>Simulate Reward (web)</button>
+    </div>
+    <div id='earnStatus'></div>
+  </div>
+<script src='../js/earn.js'></script>
+</body>
+</html>

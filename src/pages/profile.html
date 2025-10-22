@@ -3,19 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home - Money In The Bank</title>
+<title>Profile - Money In The Bank</title>
 <link rel="stylesheet" href="../css/style.css">
 <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-storage-compat.js"></script>
 <script src="../js/firebase-config.js"></script>
 <script src="../js/sidebar.js"></script>
-<script src="../js/home.js"></script>
+<script src="../js/profile.js"></script>
 </head>
 <body>
 <div class="top-bar">
 <button class="menu-btn">&#9776;</button>
-<div class="title">Money-In-The-Bank</div>
+<div class="title">Edit Profile</div>
 </div>
 <div class="sidebar-container">
 <div class="sidebar-item" data-view="home">?? Home</div>
@@ -24,11 +25,11 @@
 <div class="sidebar-item" data-view="withdraw">?? Withdraw</div>
 <div class="sidebar-item" data-view="profile">?? Profile</div>
 </div>
-<div class="profile-display">
+<div class="profile-container">
 <img id="profilePic" src="" alt="Profile Picture">
-<h2 id="username">Username</h2>
-<p id="userid">ID: </p>
-<button id="editProfileBtn">Edit Profile</button>
+<input type="text" id="usernameInput" placeholder="Enter your username">
+<input type="file" id="profilePicInput">
+<button id="saveProfileBtn">Save Changes</button>
 </div>
 </body>
 </html>
