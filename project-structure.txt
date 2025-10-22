@@ -1,0 +1,314 @@
+Project scan: C:\Users\Admin\OneDrive\3D Objects\Money-In-The-Bank-001
+
+📁 .firebase
+  📁 backup-20251020-102222
+    📄 firebase.json.bak (1313 bytes)
+  📄 firebase-config.js (903 bytes)
+  📄 firebase-debug.log (11938 bytes)
+  📄 firebase.json (1313 bytes)
+  📄 firebase.rules (1234 bytes)
+  📄 hosting..cache (835251 bytes)
+  📄 hosting.c3JjXHBhZ2Vz.cache (179 bytes)
+  📄 hosting.cHVibGlj.cache (550 bytes)
+  📄 validate-json.js (268 bytes)
+📄 .firebaserc (69 bytes)
+📁 .git
+  📄 COMMIT_EDITMSG (22 bytes)
+  📄 config (256 bytes)
+  📄 description (73 bytes)
+  📄 FETCH_HEAD (111 bytes)
+  📄 HEAD (21 bytes)
+  📁 hooks
+    📄 applypatch-msg.sample (478 bytes)
+    📄 commit-msg.sample (896 bytes)
+    📄 fsmonitor-watchman.sample (4726 bytes)
+    📄 post-update.sample (189 bytes)
+    📄 pre-applypatch.sample (424 bytes)
+    📄 pre-commit.sample (1649 bytes)
+    📄 pre-merge-commit.sample (416 bytes)
+    📄 pre-push.sample (1374 bytes)
+    📄 pre-rebase.sample (4898 bytes)
+    📄 pre-receive.sample (544 bytes)
+    📄 prepare-commit-msg.sample (1492 bytes)
+    📄 push-to-checkout.sample (2783 bytes)
+    📄 sendemail-validate.sample (2308 bytes)
+    📄 update.sample (3650 bytes)
+  📄 index (4411 bytes)
+  📁 info
+    📄 exclude (240 bytes)
+  📁 logs
+    📄 HEAD (2682 bytes)
+    📁 refs
+      📁 heads
+        📄 main (1852 bytes)
+      📁 remotes
+        📁 origin
+          📄 main (215 bytes)
+  📁 objects
+    📁 02
+      📄 ae08c0f2f28824c801d3e2a58890333c111f88 (603 bytes)
+    📁 0c
+      📄 272ce53151d3a4f4af13c48c8f03861b19b3ba (477 bytes)
+    📁 0f
+      📄 8d5142efe93bdc0c79bc98efe28f407c0f75f6 (302 bytes)
+      📄 949523daf8843a5c05bcd2f99790977493ec3f (159 bytes)
+    📁 10
+      📄 4b109c0fa98b14df4e8b7bb4ce878e66192a20 (568 bytes)
+    📁 13
+      📄 ab87691e2e5677e5c458a71ad427e7de178c2f (492 bytes)
+    📁 1a
+      📄 d95d0f1071347b61c15da7d7e60c344d768913 (239 bytes)
+    📁 1e
+      📄 16089b597298ee926d32e894e910c09b27818a (450 bytes)
+    📁 1f
+      📄 4d5a2c1d56d5b9920a8ca263dec23278f2d348 (726 bytes)
+    📁 20
+      📄 062a13c5bc225630976c26d1bfcb62219b148e (84 bytes)
+    📁 22
+      📄 99247507baa420bfde7d582ad3938d453df676 (479 bytes)
+    📁 27
+      📄 9ae5b2c36ff723d73900008af73cd338b44974 (410 bytes)
+    📁 2b
+      📄 03b1d3338d238d604457bd6496125c82f589a1 (207 bytes)
+    📁 2c
+      📄 13385034cf5dc97219322879decbc32a583c93 (215 bytes)
+    📁 34
+      📄 b391490ff7e2c49a8e89a2829f4ad2ef5314f2 (428 bytes)
+    📁 3d
+      📄 68fb37c81d340be515c9ee1b68b724d63847dd (354 bytes)
+    📁 3f
+      📄 22c26a89270c1cabcc5e9c24014a0e53b61dea (342 bytes)
+      📄 c84ac421099b6935e24a94aef28c1f31783981 (614 bytes)
+    📁 40
+      📄 f9847839bc72839948f9ab43ca21a1425fac80 (345 bytes)
+    📁 41
+      📄 a8313d2296b150abb7433c1765ec99bbd77703 (143 bytes)
+    📁 43
+      📄 b306c656f6a9fa2d54cecdbc080db444ad2528 (517 bytes)
+    📁 44
+      📄 7107962bc146882cd1a7efaa642d7c2e1ba1d9 (516 bytes)
+    📁 45
+      📄 05584d0dc74050c1ccd82d9f1c4319c73f2b8e (101 bytes)
+    📁 47
+      📄 c35dacb35c8d9c5cd9bc6c3a1f9ee4476a89ef (321 bytes)
+    📁 4a
+      📄 f690e72e5d11137502a28cede0dbf48e563be9 (271 bytes)
+    📁 4b
+      📄 453a8d66a099087e5c8bd66c1474a33dd5f2c3 (302 bytes)
+      📄 4be43e849f29bf07fab47c634534f2bd47a9b5 (534 bytes)
+    📁 4d
+      📄 278cdc6b7da92f5b449abd4f91b23aa034d63d (326 bytes)
+      📄 e6ce3d7eaba610a868a367ee28be6525a58c37 (331 bytes)
+    📁 50
+      📄 6aafd1b1c22f7c8fc0bedbc1ddd289f94f2047 (287 bytes)
+    📁 51
+      📄 44301f5ef5898183e90aafe504928ddcdf25bf (214 bytes)
+    📁 53
+      📄 e8af2f1ef8a0f223074ca300c59c9f2ec57fb5 (857 bytes)
+    📁 55
+      📄 0583e70bd2567508c408467f6289dac31f48e3 (276 bytes)
+    📁 56
+      📄 b926b260871c293c9b99b5a33a3b6734159714 (222 bytes)
+    📁 58
+      📄 fb7aaadc2a6752fe254aac5f2dfde6476e6c98 (383 bytes)
+    📁 5d
+      📄 83c7867226d6863042ecf2dd8b5aa50366f034 (100 bytes)
+    📁 60
+      📄 4918a0db7940aec1808fa925b2ed1f3dfe48c3 (143 bytes)
+    📁 61
+      📄 085922ed3e1b9cb8be308f246df41345f58204 (249 bytes)
+    📁 65
+      📄 9baa6111863b8a870cb8462699ac3268752d2b (455 bytes)
+    📁 69
+      📄 0c5678e968bf0bde19a7976d105be5d55be5d2 (447 bytes)
+    📁 6a
+      📄 ee4bc97e7d327a98d443b4fae3924ce8c0942a (458 bytes)
+    📁 6e
+      📄 b5d3a35fdb869ed4d2c18866e3a80a7d422797 (142 bytes)
+    📁 6f
+      📄 c8f14cb4d27996aba61b06ad4e8755e2b1beef (188 bytes)
+    📁 7c
+      📄 4d3139774959171edc4496109201f2750be6bd (195 bytes)
+    📁 83
+      📄 d98ac7fbab8f2d7e5e9f30e2303b441b9f0949 (59 bytes)
+    📁 84
+      📄 a1f8161ec6c98fa4762071bac2402d6a69ac7c (221 bytes)
+    📁 86
+      📄 2a5ed49b13bcf673a3fee601a9bf2cb4dd0934 (101 bytes)
+      📄 b86b4b97d4fcaa3287eb695464066c6842c9ec (315 bytes)
+    📁 87
+      📄 90df8e9b44357afe3122c5a7f150aa7ec15fb1 (548 bytes)
+    📁 88
+      📄 15bc55db719bd8bc443068256b1a67f499328f (464 bytes)
+    📁 8a
+      📄 730549b10d85ee407474c35b7287402c163b13 (321 bytes)
+    📁 8b
+      📄 535736677c054c680ad8c9ee68a0a38663a185 (156 bytes)
+    📁 8d
+      📄 9f61d5642b504af264cfd6a2cebd3b8630eb2d (191 bytes)
+    📁 8e
+      📄 387af169ad7c43e41f24eeecf829b5fb637125 (550 bytes)
+    📁 8f
+      📄 caf7bdfbbac6c722a813ffb1b0c7f0b4eaa2d7 (332 bytes)
+    📁 92
+      📄 c79ba995c71eb0353b244bb9cf719121002887 (537 bytes)
+    📁 94
+      📄 1e7834374d5184f73af0b52c2ffc064c523083 (77 bytes)
+      📄 e73de47fb9bb5744ddd13bce08be6fccdab062 (334 bytes)
+      📄 f9dc76f9131940e050ffaffb2717a0e2cfce35 (297 bytes)
+    📁 95
+      📄 7335cc99f55e78cc78bbfc6201c858edbc8dc6 (101 bytes)
+    📁 97
+      📄 660ba3d9e43b9531e48f02c70943d5b235db42 (145 bytes)
+      📄 9b9530cf35a930af987c35f41ec8d35fe9289e (252 bytes)
+    📁 9a
+      📄 c4a8a28492862785bc97a69bddbff87b41c1fc (288398 bytes)
+    📁 9b
+      📄 249c40d1ac6d9d9b0f7891caab6ec29dde284e (139 bytes)
+    📁 a1
+      📄 63892eb6b990e8f644402a0387e988c00e34e9 (243 bytes)
+      📄 69fcdcb2b742cca1ec48e75257a4af3ddbf306 (865 bytes)
+      📄 bca9f1a0537ea96d6ca250c6b2fbc6f05f8ca3 (234 bytes)
+    📁 a3
+      📄 c37b53c25d857b4f86e95954adfcb903d6bb9b (367 bytes)
+    📁 a4
+      📄 2619935d65c29f3a549570ec76d805cf7756ff (792 bytes)
+    📁 a7
+      📄 5a786e30bb072ed551470654ce4cb01e27695a (154 bytes)
+    📁 aa
+      📄 31621ebdd1e3e5f0cb3d4e503099f3b92d7afc (109 bytes)
+    📁 ac
+      📄 94b6ac0394b15f7db473a5aea49d01235fac26 (100 bytes)
+    📁 ad
+      📄 631d38e4d180a0387512b3151b40f07d900796 (340 bytes)
+    📁 af
+      📄 b72d77cf4f6a5a4713e1116f21c12e682728bf (251 bytes)
+    📁 b1
+      📄 e73df1445c09ec4099478544e822442c6921b0 (416 bytes)
+    📁 b2
+      📄 4e844e8a9be84f9d792109965a857145744e18 (491 bytes)
+      📄 84742b0a59f09a06b498a388af159149041255 (332 bytes)
+    📁 b4
+      📄 61d523c81f4caa42199c04a0c9012c03e9adce (309 bytes)
+    📁 b5
+      📄 c311ec6e4a9ea59c6a7cfa5e3ba9a8242b31d5 (353 bytes)
+    📁 b7
+      📄 37be812af3753a853c9f6d7571c69ff3808d8b (478 bytes)
+      📄 dce54737d81201d2b0a01a64417e63e38952d5 (79 bytes)
+    📁 ba
+      📄 e125d596cef347eabda93b20b7087ff4ef7cae (263 bytes)
+    📁 bc
+      📄 4a3efeb78692bf15962fe88fccd13a3b290e23 (1940 bytes)
+    📁 c0
+      📄 5fbe0a6c42f030887d826bafdc9fae960f90f9 (71 bytes)
+    📁 c1
+      📄 c13979a062b157157bbe1d723b95acf75b1082 (84 bytes)
+    📁 c3
+      📄 b2cd4f6d64c0d041d54c74dc5594ff86d7c6a8 (332 bytes)
+    📁 c4
+      📄 3a2757570e725ab779f1ce53ee6999d1210944 (493 bytes)
+      📄 4ef189bacf4b9bc296a0abe4fd91ea33e32295 (609 bytes)
+    📁 c6
+      📄 8de40983d34be6a9ff4916083af124dcdf6221 (419 bytes)
+    📁 ca
+      📄 8f52dbf755f4567d15e84001ee4a80a517c226 (637 bytes)
+    📁 cb
+      📄 0948ae359c623797de60fe9a415066561c2f46 (179 bytes)
+    📁 cf
+      📄 5b9ebe66ab46ef39578a02355c06de12b2a089 (332 bytes)
+    📁 d0
+      📄 1d22c2196825e7086631b77def0bdc3de646f5 (356 bytes)
+    📁 d4
+      📄 269bdb8aa5c2cb4d4fa12ae13343b287dfb978 (54 bytes)
+    📁 d6
+      📄 c727025d392b52cdd3e754d16926f47aea84af (100 bytes)
+    📁 d8
+      📄 0b04b0fbd7b392fa19fc3ce553c32b0ef57613 (521 bytes)
+      📄 b3fb79ccb993f93276b2f13d33d4dab86d907a (209 bytes)
+    📁 d9
+      📄 a6d902ae9a8c706675cae4ee23f29195d4f0a0 (332 bytes)
+    📁 de
+      📄 e110aa969a86c00434f8b8d4c7fd9e112ec638 (154 bytes)
+    📁 e3
+      📄 3b383208a53c9d4ac74a52755c261bfede7ca1 (344 bytes)
+      📄 c9ec3e5413895481c6e847cc068ea1b8534e83 (298 bytes)
+    📁 e5
+      📄 1d7ab01c277187e598dd182042845d2244d2ad (694 bytes)
+    📁 e8
+      📄 0d1bdcb8f4ebfe5dceb89a45c4fefbdf3aba3e (191 bytes)
+    📁 e9
+      📄 737a42aa2ec317d6e297b02c8911db85760204 (242 bytes)
+      📄 8d29424ca90efe03b38ec6b98ce506f0703ecb (234 bytes)
+    📁 eb
+      📄 90bce65db25c8640d08fc58b16b6f9baaf52a4 (345 bytes)
+    📁 ec
+      📄 255e75db94b3e33d57d4f42d22fb69d1e3e4e3 (212 bytes)
+    📁 ed
+      📄 761192ba0721fcea444acca9332d167670220e (813 bytes)
+      📄 7cc3ea60b75dea2f05b8e7bdbb894f2b744d38 (2450 bytes)
+    📁 f2
+      📄 717a700e14379681bd24b816a325abc0e057ec (358 bytes)
+    📁 f3
+      📄 bbd19522b434b05352625dd408caf1bac397f8 (451 bytes)
+    📁 f6
+      📄 a8b8ee391a31fd45702f008040abed3dbc4b68 (61 bytes)
+    📁 fb
+      📄 9f51a32638af6b8d5ddc9199c03a85d0f74237 (464 bytes)
+    📁 info
+    📁 pack
+      📄 pack-5b6e0795e699b125b9dea66de4555e3949266e2d.idx (165124 bytes)
+      📄 pack-5b6e0795e699b125b9dea66de4555e3949266e2d.pack (9227850 bytes)
+      📄 pack-5b6e0795e699b125b9dea66de4555e3949266e2d.rev (23488 bytes)
+  📄 ORIG_HEAD (41 bytes)
+  📁 refs
+    📁 heads
+      📄 main (41 bytes)
+    📁 remotes
+      📁 origin
+        📄 main (41 bytes)
+    📁 tags
+📁 android-build
+📄 autoSetup.ps1 (4632 bytes)
+📁 backup-deps
+  📄 placeholder.png (68 bytes)
+📄 firebase.json (189 bytes)
+📄 project-structure.txt (10211 bytes)
+📄 scanProject.js (589 bytes)
+📁 src
+  📁 css
+    📄 basic.css (539 bytes)
+    📄 connect.css (539 bytes)
+    📄 earn.css (712 bytes)
+    📄 home.css (952 bytes)
+    📄 login.css (592 bytes)
+    📄 splash.css (360 bytes)
+    📄 style (2).css (1388 bytes)
+    📄 style.css (1396 bytes)
+  📁 js
+    📄 connect.js (383 bytes)
+    📄 country.js (98 bytes)
+    📄 earn.js (1395 bytes)
+    📄 editProfile.js (323 bytes)
+    📄 firebase-config (2).js (796 bytes)
+    📄 firebase-config.js (502 bytes)
+    📄 home (2).js (668 bytes)
+    📄 home.js (694 bytes)
+    📄 login (2).js (1141 bytes)
+    📄 login.js (1772 bytes)
+    📄 profile.js (1289 bytes)
+    📄 settings.js (142 bytes)
+    📄 sidebar (2).js (434 bytes)
+    📄 sidebar.js (587 bytes)
+    📄 withdraw.js (148 bytes)
+  📁 pages
+    📄 connect.html (656 bytes)
+    📄 country.html (491 bytes)
+    📄 earn.html (986 bytes)
+    📄 editProfile.html (552 bytes)
+    📄 home.html (1310 bytes)
+    📄 login.html (845 bytes)
+    📄 profile.html (1632 bytes)
+    📄 settings.html (343 bytes)
+    📄 splash.html (406 bytes)
+    📄 withdraw.html (401 bytes)
+📁 www
