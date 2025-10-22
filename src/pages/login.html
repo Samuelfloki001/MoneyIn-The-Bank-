@@ -1,17 +1,27 @@
 ﻿<!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 <head>
-<meta charset='UTF-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-<title>Login</title>
-<link rel='stylesheet' href='../css/style.css'>
-<script type='module' src='../js/login.js'></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - Money-In-The-Bank</title>
+<link rel="stylesheet" href="../css/style.css">
+<script type="module" src="../js/login.js"></script>
 </head>
 <body>
-<div class='login-container'>
-<h2>Login with Google</h2>
-<button id='googleBtn'>Sign In with Google</button>
-<p id='status'></p>
+<div class="login-container">
+  <h2>Login with Google</h2>
+  <button id="googleBtn">Sign In with Google</button>
+  <p id="status"></p>
 </div>
+<div class="sidebar-container" id="sidebar">
+  <div class="sidebar-item">Home</div>
+  <div class="sidebar-item">Profile</div>
+  <div class="sidebar-item">Settings</div>
+</div>
+<button class="menu-btn">&#9776;</button>
+<script>
+const sidebar = document.getElementById('sidebar');
+document.querySelector('.menu-btn')?.addEventListener('click',()=>sidebar.classList.toggle('active'));
+</script>
 </body>
 </html>

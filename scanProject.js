@@ -1,18 +1,15 @@
-﻿const fs = require('fs');
-const path = require('path');
-const projectRoot = path.resolve('.');
-const outputFile = 'project-structure.txt';
-
-function scanDir(dir, indent='') {
-    const items = fs.readdirSync(dir);
-    for (let item of items) {
-        const fullPath = path.join(dir, item);
-        const stats = fs.statSync(fullPath);
-        if (stats.isDirectory()) { fs.appendFileSync(outputFile, \📁 \\n); scanDir(fullPath, indent+'  '); }
-        else { fs.appendFileSync(outputFile, \📄 \ (\ bytes)\n); }
-    }
+﻿const fs = require("fs");
+const path = require("path");
+const root = path.resolve(".");
+const outFile="project-structure.txt";
+function scan(dir, indent=""){
+  fs.readdirSync(dir).forEach(item=>{
+    const p=path.join(dir,item);
+    const s=fs.statSync(p);
+    if(s.isDirectory()){ fs.appendFileSync(outFile, indent+"📁 "+item+"\n"); scan(p, indent+"  "); }
+    else{ fs.appendFileSync(outFile, indent+"📄 "+item+" ("+s.size+" bytes)\n"); }
+  });
 }
-
-fs.writeFileSync(outputFile, Project scan: \\n\n);
-scanDir(projectRoot);
-console.log('✅ Project scanned! See project-structure.txt');
+fs.writeFileSync(outFile, "Project scan: "+root+"\n\n");
+scan(root);
+console.log("✅ Project scanned! See project-structure.txt");

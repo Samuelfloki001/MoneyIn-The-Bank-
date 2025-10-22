@@ -1,4 +1,16 @@
 ﻿body { margin:0; padding:0; font-family: Arial,sans-serif; background:#f0f2f5; }
-.login-container { max-width:400px; margin:100px auto; text-align:center; background:#fff; padding:20px; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.1); }
+.top-bar { background:#2c3e50; color:#fff; padding:10px; display:flex; justify-content:space-between; align-items:center; }
+.menu-btn { background:none; border:none; color:#fff; font-size:24px; cursor:pointer; }       
+.title { font-size:18px; font-weight:bold; }
+.login-container, .profile-container { max-width:400px; margin:100px auto; text-align:center; 
+background:#fff; padding:20px; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.1); }
 button { padding:10px 20px; font-size:16px; cursor:pointer; border:none; border-radius:5px; margin-top:10px; }
 #googleBtn { background:#4285F4; color:#fff; }
+.profile-display { text-align:center; margin:50px auto; background:#fff; padding:20px; border-radius:10px; max-width:400px; box-shadow:0 0 10px rgba(0,0,0,0.1); }
+.profile-display img { width:120px; height:120px; border-radius:50%; object-fit:cover; margin-bottom:15px; border:2px solid #2c3e50; }
+.profile-display h2 { margin:5px 0; font-size:24px; }
+.profile-display p { margin:5px 0; color:#555; }
+.sidebar-container { position:fixed; top:0; left:-220px; width:200px; height:100%; background:#34495e; color:#fff; padding-top:50px; transition:0.3s; }
+.sidebar-container.active { left:0; }
+.sidebar-item { padding:15px; cursor:pointer; }
+.sidebar-item:hover, .sidebar-item.active { background:#1abc9c; }
