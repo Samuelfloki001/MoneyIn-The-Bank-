@@ -1,0 +1,7 @@
+﻿{
+  "hosting": {
+    "public": "src/pages",
+    "ignore": ["firebase.json", "/.", "/node_modules/*"],
+    "rewrites": [ { "source": "", "destination": "/login.html" } ]
+  }
+}
